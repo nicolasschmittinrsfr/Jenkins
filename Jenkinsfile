@@ -4,7 +4,7 @@ pipeline {
 		stage('Build') {
 			steps {
 				echo 'Building..'
-				clean package
+				clean install
 			}
 		}
 		stage('Test') {

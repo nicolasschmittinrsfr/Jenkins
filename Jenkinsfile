@@ -4,7 +4,7 @@ pipeline {
 		stage('Build') {
 			steps {
 				echo 'Building..'
-				clean install
+				bat 'cd monappli & mvn install'
 			}
 		}
 		stage('Test') {

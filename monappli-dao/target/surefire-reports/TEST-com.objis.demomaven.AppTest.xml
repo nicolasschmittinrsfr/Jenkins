@@ -1,64 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.objis.demomaven.AppTest" time="0.055" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.objis.demomaven.AppTest" time="0.044" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="java.specification.version" value="1.8"/>
+    <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="D:\Fahd\Open_groupe\Formation\devops\tps\tp3scm\monappliscmbat\monappli\monappli-dao\target\test-classes;D:\Fahd\Open_groupe\Formation\devops\tps\tp3scm\monappliscmbat\monappli\monappli-dao\target\classes;C:\Users\fse18001\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\fse18001\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\Fahd\Open_groupe\Formation\devops\tps\tp3scm\monappliscmbat\monappli\monappli-domaine\target\monappli-domaine-1.0-SNAPSHOT.jar;"/>
+    <property name="java.class.path" value="C:\Users\orsys\Desktop\info-nicolas\jour2-MAVEN\demo\monappli\monappli-dao\target\test-classes;C:\Users\orsys\Desktop\info-nicolas\jour2-MAVEN\demo\monappli\monappli-dao\target\classes;C:\Users\orsys\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\orsys\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\orsys\Desktop\info-nicolas\jour2-MAVEN\demo\monappli\monappli-domaine\target\monappli-domaine-1.0-SNAPSHOT.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="user.timezone" value="Europe/Paris"/>
-    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="user.timezone" value="GMT+01:00"/>
+    <property name="java.vm.specification.version" value="11"/>
     <property name="os.name" value="Windows 10"/>
-    <property name="user.country" value="FR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\fse18001\AppData\Local\Temp\surefire4289125850060029204\surefirebooter9170863519678814786.jar C:\Users\fse18001\AppData\Local\Temp\surefire4289125850060029204 2020-05-13T11-05-00_889-jvmRun1 surefire1966681241877263219tmp surefire_1285846229039241725tmp"/>
-    <property name="surefire.test.class.path" value="D:\Fahd\Open_groupe\Formation\devops\tps\tp3scm\monappliscmbat\monappli\monappli-dao\target\test-classes;D:\Fahd\Open_groupe\Formation\devops\tps\tp3scm\monappliscmbat\monappli\monappli-dao\target\classes;C:\Users\fse18001\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\fse18001\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\Fahd\Open_groupe\Formation\devops\tps\tp3scm\monappliscmbat\monappli\monappli-domaine\target\monappli-domaine-1.0-SNAPSHOT.jar;"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.5\bin"/>
+    <property name="sun.java.command" value="C:\Users\orsys\AppData\Local\Temp\surefire16043396132218352686\surefirebooter2047747697331253056.jar C:\Users\orsys\AppData\Local\Temp\surefire16043396132218352686 2022-11-09T11-14-03_385-jvmRun1 surefire5224786932925300763tmp surefire_117525775675847279451tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\orsys\Desktop\info-nicolas\jour2-MAVEN\demo\monappli\monappli-dao\target\test-classes;C:\Users\orsys\Desktop\info-nicolas\jour2-MAVEN\demo\monappli\monappli-dao\target\classes;C:\Users\orsys\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\orsys\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\orsys\Desktop\info-nicolas\jour2-MAVEN\demo\monappli\monappli-domaine\target\monappli-domaine-1.0-SNAPSHOT.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\fse18001"/>
+    <property name="user.home" value="C:\Users\orsys"/>
     <property name="user.language" value="fr"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_73\jre"/>
-    <property name="basedir" value="D:\Fahd\Open_groupe\Formation\devops\tps\tp3scm\monappliscmbat\monappli\monappli-dao"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.5"/>
     <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\orsys\Desktop\info-nicolas\jour2-MAVEN\demo\monappli\monappli-dao"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\fse18001\AppData\Local\Temp\surefire4289125850060029204\surefirebooter9170863519678814786.jar"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\classes"/>
+    <property name="surefire.real.class.path" value="C:\Users\orsys\AppData\Local\Temp\surefire16043396132218352686\surefirebooter2047747697331253056.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="1.8.0_73-b02"/>
-    <property name="user.name" value="FSE18001"/>
+    <property name="java.runtime.version" value="11.0.5+10-LTS"/>
+    <property name="user.name" value="orsys"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\Users\fse18001\.m2\repository"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\fse18001\AppData\Local\Temp\"/>
-    <property name="java.version" value="1.8.0_73"/>
-    <property name="user.dir" value="D:\Fahd\Open_groupe\Formation\devops\tps\tp3scm\monappliscmbat\monappli\monappli-dao"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\orsys\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\orsys\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.5"/>
+    <property name="user.dir" value="C:\Users\orsys\Desktop\info-nicolas\jour2-MAVEN\demo\monappli\monappli-dao"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Fahd\Outils\apache-maven-3.5.2\bin;D:\Fahd\Outils\mysql-connector-java-5.1.45;D:\Fahd\Outils\apache-ant-1.10.1\bin;C:\Program Files\Java\jdk1.8.0_73\bin;D:\Fahd\Perso\project\node-v8.9.4-win-x64;D:\Fahd\Outils\apache-tomcat-8.0.18;C:\Program Files\TortoiseGit\bin;D:\Fahd\Outils\AOMEI Backupper;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\PuTTY\;C:\Tools\node_installation\node;C:\Tools\node_installation\node\yarn\dist\bin;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Users\fse18001\AppData\Local\Programs\Git\cmd;C:\Users\fse18001\AppData\Local\Programs\Git\mingw64\bin;C:\Users\fse18001\AppData\Local\Programs\Git\usr\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\fse18001\AppData\Local\Microsoft\WindowsApps;C:\Users\fse18001\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\fse18001\AppData\Roaming\npm;."/>
-    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\opt\apache-maven-3.5.3/bin;C:\Program Files\Java\jdk-11.0.5/bin;C:\Program Files\Java\jdk-11.0.5/bin;C:\Python310\Scripts\;C:\Python310\;C:\anaconda3-5.2.0;C:\anaconda3-5.2.0\Library\mingw-w64\bin;C:\anaconda3-5.2.0\Library\usr\bin;C:\anaconda3-5.2.0\Library\bin;C:\anaconda3-5.2.0\Scripts;C:\opt\Python36-32\Scripts\;C:\opt\Python36-32\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\opt\apache-ant-1.9.10\bin;C:\opt\nodejs\node_modules\npm;C:\Program Files\Git\cmd;C:\opt\Ruby25-x64\bin;C:\Program Files\GitHubDesktop\bin;C:\Program Files\atom\bin;C:\Program Files (x86)\Bitvise SSH Client;C:\opt\glassfish5\bin;C:\Program Files\jEdit;C:\opt\apache-jmeter-4.0\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\opt\play-java-starter-example\sbt-dist\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\Rational\common;C:\opt\apache-maven-3.5.3\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\TortoiseSVN\bin;C:\opt\MinGW\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Java\jdk-11.0.5\bin;C:\Program Files\Go\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\opt\apache-maven-3.5.3\bin;C:\Users\orsys\AppData\Local\Microsoft\WindowsApps;C:\Users\orsys\AppData\Local\Microsoft\WindowsApps;C:\Users\orsys\go\bin;C:\Users\orsys\AppData\Roaming\npm;;."/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="25.73-b02"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.5+10-LTS"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="52.0"/>
+    <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.objis.demomaven.AppTest" time="0.001"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.objis.demomaven.AppTest" time="0.002"/>
 </testsuite>

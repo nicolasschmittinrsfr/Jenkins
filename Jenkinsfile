@@ -10,7 +10,7 @@ pipeline {
 		stage('Test') {
 			steps {
 				echo 'Testing..'
-				junit '**/export/**/*.xml'
+				junit '**/target/**/*.xml'
 			}
 		}
 		stage('Deploy') {
